@@ -1,33 +1,59 @@
 /* Difference between a class, an object, and a type
 
+
+
+
 In Kotlin
 
  class > object > (type) [a Type is a category of objects (Int,String,Double)]
 
- all values = objects 
- :String, :Integer = objects
+                 class
+                 |||
+                 object  (instanciation of a class)
+                 |||
+                 type   (a category of objects/instanciations)
+
+
 
  
 
 
- an object is an instantiation (instance) of a class (not abstract)
- a Type is a category of objects (Int,String,Double) (instance of the class Int, etc)
+ a class is a template (modèle, plan)
 
  a class is like a function but does not have return
- a class is a template
+
+
+ an object is an instantiation (instance) of a class (not abstract)
+
+all values = objects 
+ :String, :Integer = objects
+
+
+
+ a Type is a category of objects = (instanciation of a class) (Int,String,Double) (instance of the class Int, etc)
+
+ 
+
+
+
+
 
  val mark :Employee = Employee()
+
 
   / METHOD
 
  a method is a function in a class not a method alone
 
+
+
+
+
+ a class could be empty with no header and no body like : 
+
+ public class Empty
+
 */
-
-
-// a class could be empty with no header and no body like : 
-
-// public class Empty
 
 
 

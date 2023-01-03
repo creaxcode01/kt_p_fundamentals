@@ -2,14 +2,15 @@
 //               can't be instantiated but can be herited
 // abstract can be only herited
 
-abstract class ShapeDrawer { // comme une ébauche(esquisse) les méthodes ne sont pas écrites
+abstract class ShapeDrawer {      // comme une ébauche(esquisse) les méthodes ne sont pas écrites
     fun drawSquare() { 
-drawLine() 
+        drawLine() 
     } 
 
     fun drawRectangle() { 
         drawLine() 
-    } 
+    }
+     
 
 
     internal abstract fun drawLine()  // abstract fonction = non défini = pas de  { body } 
@@ -18,7 +19,7 @@ drawLine()
 
 
 
-class AndroidShapeDrawer():ShapeDrawer(){ // hérite de l'abstract class Shape Drawer
+class AndroidShapeDrawer():ShapeDrawer(){     // une classe qui hérite d'une autre classe,  la classe AndroidShapeDrawer hérite de l'abstract classe Shape Drawer
 
     override fun drawLine() {  // réécriture de la fonction
         //code that draw lines for android platform 
