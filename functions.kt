@@ -30,7 +30,7 @@ Exemples de functions
 
 */
 
-fun helloFabien () {  // no parameter, no return (void)
+fun helloFabien () {  // no parameter, no return (void en java)
     val word1 :String = "Hello"
     val word2 :String = "Fabien"
     println ("$word1 $word2")
@@ -80,7 +80,7 @@ fun biggerOf(a :Int, b :Int) :Int {
 
 
 fun biggerOfTwo(a :Int, b :Int) :Int {
-    return if (a>b) a else b
+    return if (a>b) a else b (condition de forme plus courte)
 }
 
 

@@ -5,6 +5,7 @@ fun main() {
 val accountType :Any = "free"
 var accountType2 :String = "blabla"  //choose paid or free or others
 
+
 val charOne :Char = 'A'
 val charTwo :Char = 'B'
 val charThree :Char = 'C'

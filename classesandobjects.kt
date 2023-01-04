@@ -7,6 +7,8 @@ In Kotlin
 
  class > object > (type) [a Type is a category of objects (Int,String,Double)]
 
+
+
                  class
                  |||
                  object  (instanciation of a class)
@@ -51,7 +53,7 @@ all values = objects
 
  a class could be empty with no header and no body like : 
 
- public class Empty
+ public class Emptyclass
 
 */
 

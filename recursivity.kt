@@ -5,8 +5,8 @@ fun fonctionfactorielle(number :Int) :Int {
 
   if (number <= 1) {
       return 1
-  }
-  return fonctionfactorielle(number - 1) * number  // fonction recursive (s'appelle elle même dans la fonction)
+  }                 // else
+  return fonctionfactorielle(number - 1) * number  // fonction recursive (s'appelle elle même dans la fonction) 
 }
 
 

@@ -1,7 +1,8 @@
 /*
 
 interface Animal 
-    class Dog: Animal // empty class
+
+    class Dog :Animal // empty class   // cela veut dire que la classe Dog hérite d'Animal ( class Dog :Animal)
 
     fun main() { 
         val dog :Dog = Dog() 
@@ -23,7 +24,7 @@ interface Animal
 
 //    Animal       (interface)
 //   /      \
-//  Dog     Cat 
+//  Dog     Cat  etc
 
 // override = réécriture
 
@@ -70,13 +71,6 @@ class Dog (val name :String, override val breed :String) :Animal                
 } 
 
 
-fun main() {
-    pet(Cat("Jake","British Shorthair"))
-    pet(Dog("Cookie", "Border Collie"))
-    checkAnimalIsDog(Cat("Norman","Korat"))
-    checkAnimalIsDog(Dog("Rupper", "Golden Retriever")) 
-}
-
 
 
 fun checkAnimalIsDog(animal :Animal) { // l'interface Animal en tant que paramètre
@@ -95,3 +89,9 @@ fun checkAnimalIsDog(animal :Animal) { // l'interface Animal en tant que paramè
 
 }
 
+fun main() {
+    pet(Cat("Jake","British Shorthair"))
+    pet(Dog("Cookie", "Border Collie"))
+    checkAnimalIsDog(Cat("Norman","Korat"))
+    checkAnimalIsDog(Dog("Rupper", "Golden Retriever")) 
+}

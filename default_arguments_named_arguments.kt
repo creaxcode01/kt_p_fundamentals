@@ -3,7 +3,7 @@
 
 fun openBrowser(url :String, incognitoMode :Boolean) {    
 
-    println("Opening $url" + if (incognitoMode) " in incognito mode" else "")
+    println("Opening $url" + if (incognitoMode) " in incognito mode" else "")   // le if (boolean) par défaut est true
 
     // ...
 
@@ -18,9 +18,7 @@ fun openBrowser2(url :String, incognitoMode :Boolean = false) {
     println("Opening $url" + if (incognitoMode) " in incognito mode" else "")
 
     // ...
-
-
-}
+    }
 
 
 // deux paramètres définis par défaut
@@ -66,7 +64,9 @@ fun main() {
 
     cheer(how = "Hi ", who = "Learner ") // Hi Learner    
 
-    cheer(who = "Learner ", how = "Hi ") // Hi Learner    
+    cheer(who = "Learner ", how = "Hi ") // Hi Learner
+
+    cheer()   // les deux arguments par défaut
 
 
     argss()      // Best -> arguments par défaut

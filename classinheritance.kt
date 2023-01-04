@@ -16,7 +16,11 @@ fun e() {
        // here 
     }  
 
+
 -> C hérite des méthodes a() et b() seulement
+
+-> D hérite des méthodes a() et e() seulement
+
 */
 
 
@@ -40,13 +44,13 @@ fun main() {
 
 
 
-open class Mammal {            // open != final, permet d'hériter de cette class
+open class Mammal {            // open != final, permet d'hériter de cette classe
     fun feedChildren() {
 
     }
 }
 
-class Dog :Mammal {      // Dog hérite de la super class Mammal
+class Dog :Mammal()  {      // Dog hérite de la super classe Mammal
     fun fetchStick() {
 
     }
@@ -58,6 +62,7 @@ fun feed(mammal :Mammal) { // instanciation objet comme paramètre
 }
 
 fun main(){
+    
     Dog().feedChildren()
     Dog().fetchStick()
     feed(Dog())

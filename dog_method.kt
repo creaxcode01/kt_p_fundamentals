@@ -21,7 +21,7 @@ class Dog(val name: String) {
 
     fun feed() {
 
-        val currentDog: Dog = this // pcq feed fait partie de la Class dog
+        val currentDog :Dog = this // pcq feed fait partie de la Class dog
 
         println("Feeding ${currentDog.name}")
 
