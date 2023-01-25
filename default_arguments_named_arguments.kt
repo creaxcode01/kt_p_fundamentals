@@ -15,7 +15,7 @@ fun openBrowser(url :String, incognitoMode :Boolean) {
 
 fun openBrowser2(url :String, incognitoMode :Boolean = false) {    
 
-    println("Opening $url" + if (incognitoMode) " in incognito mode" else "")
+    println("Opening $url" + if (incognitoMode) " in incognito mode " else "")
 
     // ...
     }
@@ -24,7 +24,7 @@ fun openBrowser2(url :String, incognitoMode :Boolean = false) {
 // deux paramètres définis par défaut
 
 
-fun argss(name :String ="Antoine", lastName :String ="LEGUAY") {
+fun argss(name :String = "Antoine", lastName :String = "LEGUAY") {
     
     println("")
     println("my name is $name and my lastname $lastName")

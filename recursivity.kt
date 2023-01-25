@@ -6,7 +6,7 @@ fun fonctionfactorielle(number :Int) :Int {
   if (number <= 1) {
       return 1
   }                 // else
-  return fonctionfactorielle(number - 1) * number  // fonction recursive (s'appelle elle même dans la fonction) 
+  return fonctionfactorielle (number - 1) * number  // fonction recursive (s'appelle elle même dans la fonction) 
 }
 
 

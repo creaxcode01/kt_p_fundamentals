@@ -27,8 +27,10 @@ In Kotlin
 
  an object is an instantiation (instance) of a class (not abstract)
 
+
 all values = objects 
  :String, :Integer = objects
+
 
 
 
@@ -71,10 +73,10 @@ class Subject (    // en-tête (header) de la classe Subject
 
 
 
-class Teacher (    // en-tête (header) de la classe Teacher
+class Teacher (     // en-tête (header) de la classe Teacher
     val name :String,
     val surname :String,
-    val birthday :String,
+    val birthday :String,  // paramètres
     val status :String,
 )
       // classe avec body

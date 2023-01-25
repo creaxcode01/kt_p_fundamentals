@@ -1,8 +1,17 @@
-// abstract classes have no body
-//               can't be instantiated but can be herited
-// abstract can be only herited
+// abstract classes n'ont pas de body
 
-abstract class ShapeDrawer {      // comme une ébauche(esquisse) les méthodes ne sont pas écrites
+//               ne peuvent pas être instanciées mais seulement hérités
+
+// les classes abstraites ne peuvent pas être héritées
+
+
+
+
+
+
+
+
+abstract class ShapeDrawer {      // comme une ébauche (esquisse), les méthodes ne sont pas écrites
     fun drawSquare() { 
         drawLine() 
     } 
@@ -13,7 +22,7 @@ abstract class ShapeDrawer {      // comme une ébauche(esquisse) les méthodes 
      
 
 
-    internal abstract fun drawLine()  // abstract fonction = non défini = pas de  { body } 
+    internal abstract fun drawLine()  // abstract fonction = non défini =  pas de { body } 
 } 
 
 
